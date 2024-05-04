@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentVolume"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3Volume"
+    android:background="@color/greenE3FFD5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/volumeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/volume_text"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/balok_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/string_volume_balok_text"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_balok"
+                android:layout_width="378dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/string_volume_balok_hitung"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/balok_text_hasil" />
+
+            <EditText
+                android:id="@+id/editText_balok1"
+                android:layout_width="185dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:autofillHints="Panjang"
+                android:ems="10"
+                android:hint="@string/string_volume_balok_hint1"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/grey717171"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/balok_text" />
+
+            <EditText
+                android:id="@+id/editText_balok2"
+                android:layout_width="185dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:autofillHints="Tinggi"
+                android:ems="10"
+                android:hint="@string/string_volume_balok_hint2"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/grey717171"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/balok_text" />
+
+            <TextView
+                android:id="@+id/balok_text_hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="1dp"
+                android:text="@string/string_volume_balok_hasil"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_balok3" />
+
+            <EditText
+                android:id="@+id/editText_balok3"
+                android:layout_width="185dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:autofillHints="Tinggi Balok"
+                android:ems="10"
+                android:hint="@string/string_volume_balok_hint3"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/grey717171"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_balok1" />
+
+            <TextView
+                android:id="@+id/piramid_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/string_volume_piramid_text"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_balok" />
+
+            <EditText
+                android:id="@+id/editText_piramid1"
+                android:layout_width="185dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:autofillHints="Luas Alas"
+                android:ems="10"
+                android:hint="@string/string_volume_piramid_hint1"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/grey717171"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/piramid_text" />
+
+            <EditText
+                android:id="@+id/editText_piramid2"
+                android:layout_width="185dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:autofillHints="Tinggi"
+                android:ems="10"
+                android:hint="@string/string_volume_piramid_hint2"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/grey717171"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/piramid_text" />
+
+            <Button
+                android:id="@+id/button_piramid"
+                android:layout_width="378dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/string_volume_piramid_hitung"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/piramid_text_hasil" />
+
+            <TextView
+                android:id="@+id/piramid_text_hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="1dp"
+                android:text="@string/string_volume_piramid_hasil"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_piramid1" />
+
+            <TextView
+                android:id="@+id/tabung_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/string_volume_tabung_text"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_piramid" />
+
+            <EditText
+                android:id="@+id/editText_tabung1"
+                android:layout_width="185dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:autofillHints="Jari - Jari"
+                android:ems="10"
+                android:hint="@string/string_volume_tabung_hint1"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/grey717171"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tabung_text" />
+
+            <TextView
+                android:id="@+id/tabung_text_hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="1dp"
+                android:text="@string/string_volume_tabung_hasil"
+                android:textColorHint="@color/grey717171"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_tabung1" />
+
+            <Button
+                android:id="@+id/button_tabung"
+                android:layout_width="378dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/string_volume_tabung_hitung"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tabung_text_hasil" />
+
+            <EditText
+                android:id="@+id/editText_tabung2"
+                android:layout_width="185dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:autofillHints="Tinggi"
+                android:ems="10"
+                android:hint="@string/string_volume_piramid_hint2"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/grey717171"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tabung_text" />
+
+            <TextView
+                android:id="@+id/jawaban_balok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/balok_text_hasil"
+                app:layout_constraintTop_toBottomOf="@+id/editText_balok3" />
+
+            <TextView
+                android:id="@+id/jawaban_piramid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/piramid_text_hasil"
+                app:layout_constraintTop_toBottomOf="@+id/editText_piramid1" />
+
+            <TextView
+                android:id="@+id/jawaban_tabung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/tabung_text_hasil"
+                app:layout_constraintTop_toBottomOf="@+id/editText_tabung1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</FrameLayout>

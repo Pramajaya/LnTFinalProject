@@ -1,0 +1,100 @@
+<resources>
+    <!--    front page-->
+    <string name="app_name">LnTFinalProject</string>
+    <string name="title_text">Welcome!</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register</string>
+    <string name="button_register_description">can be press 1</string>
+    <string name="button_login_description">can be press 2</string>
+
+    <!--    login page-->
+    <string name="login_title_text">Login</string>
+    <!--    <string name="login_email_editText_text">Email</string>-->
+    <!--    <string name="login_Password_editText_text">Password</string>-->
+    <string name="password_fill_able">Password</string>
+    <string name="email_fill_able">Email</string>
+    <string name="login_login_text">Login</string>
+
+    <!--    register page-->
+    <string name="register_title_text">Register</string>
+    <!--    <string name="register_email_editText_text">Email</string>-->
+    <!--    <string name="register_name_editText_text">Name</string>-->
+    <!--    <string name="register_password_editText_text">Password</string>-->
+    <!--    <string name="register_id_editText_text">ID</string>-->
+    <!--    <string name="register_confirm_password_editText_text">Confirm Password</string>-->
+    <string name="register_email_fill_able">Email</string>
+    <string name="register_password_fill_able">Password</string>
+    <string name="register_name_fill_able">Name</string>
+    <string name="register_id_fill_able">ID</string>
+    <string name="register_confirm_password_fill_able">Confirm Password </string>
+    <string name="register_register_button">Register Touch Able</string>
+    <string name="register_register_text">Register</string>
+
+<!--    fragment main-->
+    <string name="fragment_main_tab_layout2">Navigation Bar Calculator</string>
+
+<!--    main fragment-->
+    <string name="counter_nav">Counter</string>
+    <string name="area_nav">Area</string>
+    <string name="volume_nav">Volume</string>
+    <string name="nav_hint1">Counter</string>
+    <string name="nav_hint2">Area</string>
+    <string name="nav_hint3">Volume</string>
+
+    <!--    counter-->
+    <string name="counter_text">Counter</string>
+    <string name="counter_plus">+</string>
+    <string name="counter_minus">-</string>
+    <string name="counter_reset">Reset</string>
+
+<!--    luas-->
+    <string name="luas_text">Kalkulator Luas</string>
+    <string name="string_persegi_text">Persegi</string>
+    <string name="string_persegi_hasil">Hasil =</string>
+    <string name="string_persegi_hitung">Hitung Luas Persegi</string>
+    <string name="string_persegi_hint1">Sisi 1</string>
+    <string name="string_persegi_hint2">Sisi 2</string>
+
+    <string name="string_segitiga_text">Segitiga</string>
+    <string name="string_segitiga_hasil">Hasil =</string>
+    <string name="string_segitiga_hitung">Hitung Luas Segitiga</string>
+    <string name="string_segitiga_hint1">Alas</string>
+    <string name="string_segitiga_hint2">Tinggi</string>
+
+    <string name="string_lingkaran_text">Lingkaran</string>
+    <string name="string_lingkaran_hasil">Hasil =</string>
+    <string name="string_lingkaran_hitung">Hitung Luas Lingkaran</string>
+    <string name="string_lingkaran_hint">Jari - Jari</string>
+
+<!--    volume-->
+    <string name="volume_text">Kalkulator Volume</string>
+    <string name="string_volume_balok_text">Balok</string>
+    <string name="string_volume_balok_panjang">Panjang</string>
+    <string name="string_volume_balok_lebar">Lebar</string>
+    <string name="string_volume_balok_tinggi">Tinggi</string>
+    <string name="string_volume_balok_hasil">Hasil =</string>
+    <string name="string_volume_balok_hitung">Hitung Volume Balok</string>
+    <string name="string_volume_balok_hint1">Panjang</string>
+    <string name="string_volume_balok_hint2">Lebar</string>
+    <string name="string_volume_balok_hint3">Tinggi</string>
+
+    <string name="string_volume_piramid_text">Piramid</string>
+    <string name="string_volume_piramid_luas_alas">Luas Alas</string>
+    <string name="string_volume_piramid_tinggi">Tinggi</string>
+    <string name="string_volume_piramid_hasil">Hasil =</string>
+    <string name="string_volume_piramid_hitung">Hitung Volume Piramid</string>
+    <string name="string_volume_piramid_hint1">Luas Alas</string>
+    <string name="string_volume_piramid_hint2">Tinggi</string>
+
+    <string name="string_volume_tabung_text">Tabung</string>
+    <string name="string_volume_tabung_jari">Jari - Jari</string>
+    <string name="string_volume_tabung_tinggi">Tinggi</string>
+    <string name="string_volume_tabung_hasil">Hasil =</string>
+    <string name="string_volume_tabung_hitung">Hitung Volume Tabung</string>
+    <string name="string_volume_tabung_hint1">Jari - Jari</string>
+    <string name="string_volume_tabung_hint2">Tinggi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

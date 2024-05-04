@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenE3FFD5"
+    android:orientation="vertical"
+    tools:context=".CounterPageActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:backgroundTint="#7C1000FF"
+        android:contentDescription="@string/fragment_main_tab_layout2"
+        android:layout_gravity="bottom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/fragmentCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="@string/counter_nav"
+            android:contentDescription="@string/nav_hint1"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/fragmentArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="@string/area_nav"
+            android:contentDescription="@string/nav_hint2"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/fragmentVolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="@string/volume_nav"
+            android:contentDescription="@string/nav_hint3"/>
+    </com.google.android.material.tabs.TabLayout>
+
+
+
+</LinearLayout>
